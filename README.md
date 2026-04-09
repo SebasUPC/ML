@@ -1,5 +1,5 @@
 # ML
-Repositorio del curso de Machine Learning (1ACC0057) de la UPC del ciclo 2026-01.
+Repositorio del curso de Machine Learning (1ACC0057) de la UPC del ciclo 2026-01. Material del 2026-01 [aquí](https://drive.google.com/drive/u/1/folders/1lf9_RwgqqbKHlgZh5rOZp1U2Gqu2ThwR).
 
 # Abrir archivos .ipynb en Google Colab
 Para abrir un archivo `.ipynb` en Google Colab, reemplaza `github.com` por `colab.research.google.com/github/` en la URL del repositorio.
