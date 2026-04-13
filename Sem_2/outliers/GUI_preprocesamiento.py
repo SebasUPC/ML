@@ -433,7 +433,7 @@ def server(input, output, session):
     @reactive.Effect
     def _load_default():
         try:
-            df = pd.read_csv("bupa.csv", sep = ';')
+            df = pd.read_csv("../bupa.csv", sep = ';')
             df_original.set(df.copy())
             df_current.set(df.copy())
             ops_log.set(["Dataset cargado: train_loan.csv"])
