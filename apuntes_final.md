@@ -23,7 +23,7 @@ A continuación, tienes la **guía teórica definitiva** de la segunda mitad del
         *   `linear`: Para datos que se pueden separar con una línea recta.
         *   `rbf` (Radial Basis Function): Crea fronteras de decisión esféricas y complejas. Es el más usado por defecto.
         *   `poly` (Polinomial): Crea fronteras curvadas de grado $d$.
-    *   `gamma` (Exclusivo de kernels como RBF): Define el radio de influencia de un solo ejemplo de entrenamiento.
+    *   `gamma` (Exclusivo de kernels no lineales como RBF): Define el radio de influencia de un solo ejemplo de entrenamiento.
         *   **Gamma alto:** Un punto influye solo en sus vecinos más cercanos. La frontera se vuelve muy irregular y se ajusta a cada punto individual (**Overfitting**).
         *   **Gamma bajo:** Un punto tiene una influencia de gran alcance. La frontera de decisión es más suave y lisa (**Underfitting**).
 
